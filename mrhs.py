@@ -23,14 +23,6 @@ if systema == 'Linux':
             print(gray + """-l [ipv4]
 -p [port]
 --help = ajuda
--k = fazer keyloger(localmente)
--o = upload <arquivo> <caminho na maquina da vitiima>
--h = download <arquivo da vitima> <diretorio a ser deixado>
--u = gravar tela da vitima
--f = gravar wbecam
--s = executar arquivo na maquina da vitima
--d = criptografar conexão
--i = executar comandos
 example: ./mrhs.py -l 192.168.0.102 -p 9999""", reset)
             sys.exit()
     except:
